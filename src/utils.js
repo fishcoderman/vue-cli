@@ -1,4 +1,4 @@
-export const obj =  {
+export const lib =  {
   name: "chinamaster",
   fn: function(arr){
     arr.map(item => {

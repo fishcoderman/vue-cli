@@ -1,3 +1,3 @@
-export function test(){
-  console.log('test ing ....')
-}
+export const lib  = {
+  number: 456
+};

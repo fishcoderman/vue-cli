@@ -10,18 +10,21 @@
 </template>
 
 <script>
-import("@/js/utils.js").then(res =>{
-  console.log('res', res)
-})
-import {obj as library} from "../lib/library"
-// const library = require("../lib/library")
-import * as _ from 'lodash'
-console.log('root', library)
+// import("@/js/utils.js").then(res =>{
+//   console.log('res', res)
+// })
+// import {lib} from "./js/utils"
+const library = require("../lib/library")
+import {lib} from "../lib/library"
+
+// import * as _ from 'lodash'
+console.log('lib', lib)
+console.log('library', library)
 
 export default {
   name: "App",
   mounted() {
-    _.times(10, (i)=>console.log(i))
+    // _.times(10, (i)=>console.log(i))
   }
 };
 </script>
